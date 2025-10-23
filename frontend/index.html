@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bank Account Management</h1>
+
+  <div class="form-container">
+    <h3>Deposit Money</h3>
+    <form id="depositForm">
+      <input type="number" id="accountNo" placeholder="Account Number" required><br>
+      <input type="number" id="amount" placeholder="Amount" required><br>
+      <button type="button" onclick="deposit()">Deposit</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
